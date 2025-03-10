@@ -82,5 +82,10 @@ namespace Attendance_Management_System
             this.Hide();
             new SignIn().Show();
         }
+
+        private void navigateToUser(object sender, EventArgs e)
+        {
+            LoadFormIntoPanel(new UserForm());
+        }
     }
 }

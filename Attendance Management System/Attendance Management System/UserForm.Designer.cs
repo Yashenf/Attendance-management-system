@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSearchUser = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.userGridView = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
@@ -46,12 +46,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Users Management";
             // 
-            // textBox1
+            // txtSearchUser
             // 
-            this.textBox1.Location = new System.Drawing.Point(31, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(438, 22);
-            this.textBox1.TabIndex = 1;
+            this.txtSearchUser.Location = new System.Drawing.Point(31, 72);
+            this.txtSearchUser.Name = "txtSearchUser";
+            this.txtSearchUser.Size = new System.Drawing.Size(438, 22);
+            this.txtSearchUser.TabIndex = 1;
+            this.txtSearchUser.KeyUp += new System.Windows.Forms.KeyEventHandler(this.searchUserOnAction);
             // 
             // button1
             // 
@@ -61,6 +62,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Add New User";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnAddNewUserOnAction);
             // 
             // userGridView
             // 
@@ -80,6 +82,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "Delete";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btnDeleteUserOnAction);
             // 
             // button3
             // 
@@ -89,6 +92,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "Update";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.btnUpdateUserOnAction);
             // 
             // UserForm
             // 
@@ -99,7 +103,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.userGridView);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSearchUser);
             this.Controls.Add(this.label1);
             this.Name = "UserForm";
             this.Text = "UserForm";
@@ -112,7 +116,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSearchUser;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView userGridView;
         private System.Windows.Forms.Button button2;

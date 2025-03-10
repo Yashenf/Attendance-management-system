@@ -73,6 +73,12 @@
     <Compile Include="AddNewSubject.Designer.cs">
       <DependentUpon>AddNewSubject.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewUser.Designer.cs">
+      <DependentUpon>AddNewUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="AttendanceInfo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -124,6 +130,12 @@
     <Compile Include="UpdateSubject.Designer.cs">
       <DependentUpon>UpdateSubject.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateUserForm.Designer.cs">
+      <DependentUpon>UpdateUserForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddNewSubject.resx">
       <DependentUpon>AddNewSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewUser.resx">
+      <DependentUpon>AddNewUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -175,6 +190,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateSubject.resx">
       <DependentUpon>UpdateSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateUserForm.resx">
+      <DependentUpon>UpdateUserForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>

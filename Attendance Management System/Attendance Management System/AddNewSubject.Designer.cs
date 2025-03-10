@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSubId = new System.Windows.Forms.TextBox();
@@ -36,6 +37,8 @@
             this.txtLecInCharge = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -62,6 +65,7 @@
             this.txtSubId.Name = "txtSubId";
             this.txtSubId.Size = new System.Drawing.Size(351, 22);
             this.txtSubId.TabIndex = 2;
+            this.txtSubId.Validated += new System.EventHandler(this.validateSubjectId);
             // 
             // txtTitle
             // 
@@ -69,6 +73,7 @@
             this.txtTitle.Name = "txtTitle";
             this.txtTitle.Size = new System.Drawing.Size(351, 22);
             this.txtTitle.TabIndex = 4;
+            this.txtTitle.Validated += new System.EventHandler(this.validateTitle);
             // 
             // label3
             // 
@@ -85,6 +90,7 @@
             this.txtLecInCharge.Name = "txtLecInCharge";
             this.txtLecInCharge.Size = new System.Drawing.Size(351, 22);
             this.txtLecInCharge.TabIndex = 8;
+            this.txtLecInCharge.Validated += new System.EventHandler(this.lecInChargeValidate);
             // 
             // label5
             // 
@@ -105,6 +111,11 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.addNewSubjectBtnOnAction);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            this.errorProvider1.RightToLeftChanged += new System.EventHandler(this.checkregex);
+            // 
             // AddNewSubject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -120,6 +131,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AddNewSubject";
             this.Text = "AddNewSubject";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -135,5 +147,6 @@
         private System.Windows.Forms.TextBox txtLecInCharge;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

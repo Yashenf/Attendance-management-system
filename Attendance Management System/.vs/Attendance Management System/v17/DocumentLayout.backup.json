@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|d:\\uov\\academic\\level 2 semester 1\\acp group project\\attendance management system\\attendance management system\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|solutionrelative:attendance management system\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|d:\\uov\\academic\\level 2 semester 1\\acp group project\\attendance management system\\attendance management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|solutionrelative:attendance management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|d:\\uov\\academic\\level 2 semester 1\\acp group project\\attendance management system\\attendance management system\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|solutionrelative:attendance management system\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|d:\\uov\\academic\\level 2 semester 1\\acp group project\\attendance management system\\attendance management system\\addnewstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|solutionrelative:attendance management system\\addnewstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|d:\\uov\\academic\\level 2 semester 1\\acp group project\\attendance management system\\attendance management system\\addnewsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DA78117-EF76-4E5F-96FA-6EEDD65EE3DE}|Attendance Management System\\Attendance Management System.csproj|solutionrelative:attendance management system\\addnewsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.cs",
-              "DocumentMoniker": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\Home.cs",
-              "RelativeDocumentMoniker": "Attendance Management System\\Home.cs",
-              "ToolTip": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\Home.cs",
-              "RelativeToolTip": "Attendance Management System\\Home.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDgAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Attendance Management System\\Program.cs",
+              "ToolTip": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\Program.cs",
+              "RelativeToolTip": "Attendance Management System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T03:18:03.631Z",
+              "WhenOpened": "2025-03-10T05:37:39.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\Home.cs",
-              "RelativeDocumentMoniker": "Attendance Management System\\Home.cs",
-              "ToolTip": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\Home.cs [Design]",
-              "RelativeToolTip": "Attendance Management System\\Home.cs [Design]",
+              "Title": "AddNewStudentForm.cs",
+              "DocumentMoniker": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\AddNewStudentForm.cs",
+              "RelativeDocumentMoniker": "Attendance Management System\\AddNewStudentForm.cs",
+              "ToolTip": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\AddNewStudentForm.cs",
+              "RelativeToolTip": "Attendance Management System\\AddNewStudentForm.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwFsAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T10:42:00.655Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-10T05:36:58.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddNewSubject.cs",
+              "DocumentMoniker": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\AddNewSubject.cs",
+              "RelativeDocumentMoniker": "Attendance Management System\\AddNewSubject.cs",
+              "ToolTip": "D:\\uov\\academic\\level 2 semester 1\\ACP Group Project\\Attendance Management System\\Attendance Management System\\AddNewSubject.cs",
+              "RelativeToolTip": "Attendance Management System\\AddNewSubject.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwGwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T05:34:39.949Z",
+              "EditorCaption": ""
             }
           ]
         }

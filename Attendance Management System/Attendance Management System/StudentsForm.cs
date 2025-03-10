@@ -71,11 +71,11 @@ namespace Attendance_Management_System
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message,"Show Students's details ",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             finally
             {
-
+                conn.Close();
             }
 
 

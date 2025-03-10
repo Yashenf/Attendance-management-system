@@ -6,8 +6,11 @@ using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Attendance_Management_System
 {
@@ -80,5 +83,46 @@ namespace Attendance_Management_System
             this.Close();
         }
 
+        private void validateRegNum(object sender, CancelEventArgs e)
+        {
+            Regex regNumRegex = new Regex(@"^\d{4}/ICTS/\d{1,3}$");
+
+            if (!regNumRegex.IsMatch(txtRegNum.Text))
+            {
+                errorProvider1.SetError(txtRegNum, "Registration Number must start with 'xxxx/ICTS/xxx'");
+                return;
+            }
+            else {
+                errorProvider1.SetError(txtRegNum,"");
+            }
+        }
+
+        private void validateFullName(object sender, CancelEventArgs e)
+        {
+            Regex nameRegex = new Regex(@"^[a-zA-Z\s]+$");
+            if (string.IsNullOrWhiteSpace(txtName.Text) || !nameRegex.IsMatch(txtName.Text))
+            {
+                errorProvider1.SetError(txtName, "Name must contain only letters and spaces.");
+                return;
+            }
+            else
+            {
+                errorProvider1.SetError(txtName, "");
+            }
+        }
+
+        private void validateEmail(object sender, EventArgs e)
+        {
+            Regex emailRegex = new Regex(@"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$");
+            if (!emailRegex.IsMatch(txtEmail.Text))
+            {
+                errorProvider1.SetError(txtEmail, "Invalid email format.");
+                return;
+            }
+            else
+            {
+                errorProvider1.SetError(txtEmail, "");
+            }
+        }
     }
 }

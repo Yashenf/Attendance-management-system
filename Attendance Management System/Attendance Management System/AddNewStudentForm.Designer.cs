@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtRegNum = new System.Windows.Forms.TextBox();
@@ -39,11 +40,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.dpkDob = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rdbMale = new System.Windows.Forms.RadioButton();
             this.rdbFemale = new System.Windows.Forms.RadioButton();
+            this.rdbMale = new System.Windows.Forms.RadioButton();
             this.cmbAcademicYear = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -70,6 +73,7 @@
             this.txtRegNum.Name = "txtRegNum";
             this.txtRegNum.Size = new System.Drawing.Size(314, 22);
             this.txtRegNum.TabIndex = 2;
+            this.txtRegNum.Validating += new System.ComponentModel.CancelEventHandler(this.validateRegNum);
             // 
             // txtName
             // 
@@ -77,6 +81,7 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(314, 22);
             this.txtName.TabIndex = 4;
+            this.txtName.Validating += new System.ComponentModel.CancelEventHandler(this.validateFullName);
             // 
             // label3
             // 
@@ -102,6 +107,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(314, 22);
             this.txtEmail.TabIndex = 8;
+            this.txtEmail.TextChanged += new System.EventHandler(this.validateEmail);
             // 
             // label5
             // 
@@ -139,17 +145,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Gender";
             // 
-            // rdbMale
-            // 
-            this.rdbMale.AutoSize = true;
-            this.rdbMale.Location = new System.Drawing.Point(108, 35);
-            this.rdbMale.Name = "rdbMale";
-            this.rdbMale.Size = new System.Drawing.Size(58, 20);
-            this.rdbMale.TabIndex = 0;
-            this.rdbMale.TabStop = true;
-            this.rdbMale.Text = "Male";
-            this.rdbMale.UseVisualStyleBackColor = true;
-            // 
             // rdbFemale
             // 
             this.rdbFemale.AutoSize = true;
@@ -160,6 +155,17 @@
             this.rdbFemale.TabStop = true;
             this.rdbFemale.Text = "Female";
             this.rdbFemale.UseVisualStyleBackColor = true;
+            // 
+            // rdbMale
+            // 
+            this.rdbMale.AutoSize = true;
+            this.rdbMale.Location = new System.Drawing.Point(108, 35);
+            this.rdbMale.Name = "rdbMale";
+            this.rdbMale.Size = new System.Drawing.Size(58, 20);
+            this.rdbMale.TabIndex = 0;
+            this.rdbMale.TabStop = true;
+            this.rdbMale.Text = "Male";
+            this.rdbMale.UseVisualStyleBackColor = true;
             // 
             // cmbAcademicYear
             // 
@@ -185,6 +191,10 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.addNewStudentBtnOnAction);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // AddNewStudentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -207,6 +217,7 @@
             this.Text = "AddNewStudentForm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -229,5 +240,6 @@
         private System.Windows.Forms.RadioButton rdbMale;
         private System.Windows.Forms.ComboBox cmbAcademicYear;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

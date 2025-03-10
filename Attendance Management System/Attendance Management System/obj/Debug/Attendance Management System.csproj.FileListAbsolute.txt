@@ -20,3 +20,6 @@ D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management Syste
 D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.AddNewSubject.resources
 D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.ViewAttendance.resources
 D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.UpdateSubject.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.AddNewUser.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.UpdateUserForm.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.UserForm.resources
