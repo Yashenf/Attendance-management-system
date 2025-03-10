@@ -1,0 +1,22 @@
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\bin\Debug\Attendance Management System.exe
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\bin\Debug\UniversityDB.mdf
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\bin\Debug\UniversityDB_log.ldf
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\bin\Debug\Attendance Management System.exe.config
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance Management System.csproj.AssemblyReference.cache
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.AddNewStudentForm.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.Form1.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.Home.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.MarkAttendance.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.Properties.Resources.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.SignIn.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.StudentsForm.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.SubjectForm.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.UpdateStudentForm.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance Management System.csproj.GenerateResource.cache
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance Management System.csproj.CoreCompileInputs.cache
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance Management System.exe
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance Management System.pdb
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\bin\Debug\Attendance Management System.pdb
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.AddNewSubject.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.ViewAttendance.resources
+D:\uov\academic\level 2 semester 1\ACP Group Project\Attendance Management System\Attendance Management System\obj\Debug\Attendance_Management_System.UpdateSubject.resources
