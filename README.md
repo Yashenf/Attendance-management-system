@@ -61,7 +61,12 @@ Let me know if you’d like the next part (e.g., Screenshots and Challenges & So
 ## Screenshots
 | Sign-In Screen | Home Screen | Subject Management |
 |----------------|-------------|--------------------|
-| ![Sign-In](https://via.placeholder.com/300x200.png?text=Sign-In+Screen) | ![Home](https://via.placeholder.com/300x200.png?text=Home+Screen) | ![Subjects](https://via.placeholder.com/300x200.png?text=Subject+Management) |
+| ![Screenshot (150)](https://github.com/user-attachments/assets/361308eb-3000-41b7-9d1a-941a23fb984e) | ![Screenshot (161)](https://github.com/user-attachments/assets/a860aa7f-2d21-4b95-9934-fdb1e03174c8) | !![Screenshot (160)](https://github.com/user-attachments/assets/8f6c51c0-b932-4a2a-8d63-fd298ab2a6f2)|
+
+
+
+
+
 
 *Note: Replace placeholders with actual screenshots from your project.*
 
